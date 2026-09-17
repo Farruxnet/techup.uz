@@ -22,7 +22,12 @@ html, body {
 .logo-up {
     color: #f6e05e;
 }
-
+.my-font {
+    font-family: "Edition", sans-serif;
+    font-weight: 700;
+    line-height: 1;
+    -webkit-text-stroke: 0.35px currentColor;
+}
 /**
  * Enable smooth scrolling on the whole document
  */
