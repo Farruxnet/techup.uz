@@ -5,12 +5,13 @@ html, body {
 @font-face {
     font-family: "Edition";
     src: url("Edition-BxnV.ttf") format("truetype");
+    font-weight: 400 700;
     font-display: swap;
 }
 
 .my-font {
     font-family: "Edition", sans-serif;
-    font-weight: 400;
+    font-weight: 700;
     line-height: 1;
 }
 
@@ -19,7 +20,7 @@ html, body {
 }
 
 .logo-up {
-    color: #d6b800;
+    color: #f6e05e;
 }
 
 /**
