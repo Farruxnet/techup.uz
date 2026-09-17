@@ -3,13 +3,23 @@ html, body {
 }
 
 @font-face {
-  font-family: 'Edition';
-  src: url('Edition-BxnV.ttf');
+    font-family: "Edition";
+    src: url("Edition-BxnV.ttf") format("truetype");
+    font-display: swap;
 }
 
 .my-font {
-  border-radius: 10px;
-  font-family: Edition;
+    font-family: "Edition", sans-serif;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.logo-tech {
+    color: #2f2e41;
+}
+
+.logo-up {
+    color: #d6b800;
 }
 
 /**
